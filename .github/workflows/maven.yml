@@ -24,4 +24,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: 7h7h7
-      run: cd /home/runner/work/DirtMultiversion/DirtMultiversion/target/ && curl -F "file=@DirtMultiversion-1.0-SNAPSHOT.jar" https://api.anonfiles.com/upload && curl -F "file=@DirtMultiversion-1.0-SNAPSHOT-shaded.jar" https://api.anonfiles.com/upload
+      run: cd /home/runner/work/DirtMultiversion/DirtMultiversion/target/ && curl -F "file=@DirtMultiversion-1.0-SNAPSHOT.jar" https://api.anonfiles.com/upload
